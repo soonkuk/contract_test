@@ -160,7 +160,7 @@ type Contract interface {
 	transfer()
 }
 
-type PF00_Contract struct {
+type P_Contract struct {
 	own_addr     string
 	sum          uint64
 	account_addr string
